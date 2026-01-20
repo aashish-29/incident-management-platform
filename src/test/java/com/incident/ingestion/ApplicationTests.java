@@ -1,4 +1,4 @@
-package com.test.incident.management;
+package com.incident.ingestion;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

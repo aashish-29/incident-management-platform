@@ -10,8 +10,8 @@ public class AlertRequest {
     @NotBlank
     private String serviceName;
 
-    @NotBlank
-    private String severity; // CRITICAL, HIGH, MEDIUM
+    @NotNull
+    private Severity severity; // CRITICAL, HIGH, MEDIUM
 
     @NotBlank
     private String message;
