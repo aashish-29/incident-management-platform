@@ -1,13 +1,12 @@
-package com.test.incident.management;
+package com.incident.ingestion;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
-
+public class AlertIngestionApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(AlertIngestionApplication.class, args);
 	}
-
 }
