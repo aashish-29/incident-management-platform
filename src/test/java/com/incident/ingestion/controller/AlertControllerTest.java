@@ -44,6 +44,7 @@ class AlertControllerTest {
         objectMapper = new ObjectMapper();
 
         // Register validator and exception resolver for @Valid to work
+
         LocalValidatorFactoryBean validator = new LocalValidatorFactoryBean();
         validator.afterPropertiesSet();
 
