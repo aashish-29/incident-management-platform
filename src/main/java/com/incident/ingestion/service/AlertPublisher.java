@@ -1,9 +1,11 @@
 package com.incident.ingestion.service;
 
-import com.incident.ingestion.model.AlertRequest;
+import com.incident.ingestion.model.AlertEvent;
+
+import java.util.concurrent.CompletableFuture;
 
 public interface AlertPublisher {
 
-    void publish(AlertRequest alert);
+    CompletableFuture<Void> publish(AlertEvent alertEvent);
 
 }
